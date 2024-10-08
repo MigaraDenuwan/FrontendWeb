@@ -1,0 +1,79 @@
+.formContainer {
+  width: 1209px; height: 656px; position: relative; background: white; box-shadow: 0px 0px 26.6678466796875px rgba(0, 0, 0, 0.10); border-radius: 16.53px; border: 1px #980000 solid
+  }
+  
+  .backgroundImage {
+    width: 603px;
+    height: 656px;
+    position: absolute;
+    opacity: 0.05;
+    border-radius: 19px;
+  }
+  
+  .submitTitle {
+    left: 564px;
+    top: 40px;
+    position: absolute;
+    color: #840000;
+    font-size: 24px;
+    font-family: 'Roobert PRO';
+    font-weight: 700;
+    word-wrap: break-word;
+    
+  }
+  
+  .inputContainer {
+    width: 538px;
+    height: 56px;
+    left: 336px;
+    position: absolute;
+  }
+  
+  .inputWrapper {
+    width: 538px;
+    height: 56px;
+    background: white;
+    border-radius: 8px;
+    border: 1px #CDCDCD solid;
+  }
+  
+  .inputLabel {
+    left: 22px;
+    top: 16px;
+    position: absolute;
+    text-align: center;
+    color: #C3C3C3;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .descriptionContainer {
+    width: 538px;
+    height: 275px;
+    left: 336px;
+    top: 341px;
+    position: absolute;
+  }
+  
+  .submitButton {
+    width: 538px;
+    height: 54px;
+    left: 336px;
+    top: 549px;
+    background: #980000;
+    border-radius: 11.94px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+  }
+  
+  .submitButtonText {
+    color: white;
+    font-size: 16px;
+    font-family: 'Roobert PRO';
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  
