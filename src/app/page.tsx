@@ -3,6 +3,7 @@ import Slideshow from "@/Components/SlideShow/slideShow";
 import Title from "@/Components/Title/Title";
 import styles from '@/app/page.module.css';
 import FormComponent from "@/Components/FormComponent/FormComponent";
+import ContactUs from "@/Components/Contact/ContactUs";
 
 export default function Home() {
   return (
@@ -15,11 +16,15 @@ export default function Home() {
         <Slideshow />
       </div>
       <div className={styles.form}>
-      <FormComponent />
+        <FormComponent />
+      </div>
+      <div className={styles.contact}>
+        <ContactUs />
       </div>
       <main>
-      
+        
       </main>
+      <div style={{ height: '500vh' }}></div>
     </>
   );
 }

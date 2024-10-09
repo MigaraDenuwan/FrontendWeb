@@ -1,5 +1,5 @@
 import React from 'react';
-import './ContactUs.css'; // Import the CSS file
+import './ContactUs.css';
 
 const ContactUs: React.FC = () => {
   return (
@@ -7,23 +7,37 @@ const ContactUs: React.FC = () => {
       <div className="contact-card">
         <div className="contact-title">Contact Us</div>
         <div className="contact-icons">
-          <img className="contact-icon" src="https://via.placeholder.com/41x41" alt="icon1" />
-          <div className="contact-icon" style={{ left: '81.42px' }}>
-            <img src="https://via.placeholder.com/41x41" alt="icon2" />
-            <div style={{ width: '40.92px', height: '40.92px', color: '#006699' }} />
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+            <img className="contact-icon" src='/images/FacebookLogo.png' alt="Facebook" />
+          </a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+            <div className="contact-icon" style={{ left: '81.42px' }}>
+              <img src='/images/LinkedInLogo.png' alt="LinkedIn" />
+              <div style={{ width: '40.92px', height: '40.92px', color: '#006699' }} />
+            </div>
+          </a>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+            <img className="contact-icon" style={{ left: '162px' }} src='/images/InstergramLogo.png' alt="Instagram" />
+          </a>
+          <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">
+            <img className="contact-icon" style={{ left: '243px' }} src='/images/TikTokDarkLogo.png' alt="TikTok" />
+          </a>
+        </div>
+        <div className="contact-info">
+          <div className="whatsapp-info">
+            <a href="https://api.whatsapp.com/send?phone=94712345678" target="_blank" rel="noopener noreferrer">
+              <img style={{ width: '72px', height: '72px' }} src='/images/whatsAppLogo.png' alt="WhatsApp" />
+            </a>
+            <div className="whatsapp-number">071 234 5678</div>
           </div>
-          <img className="contact-icon" style={{ left: '162px' }} src="https://via.placeholder.com/41x41" alt="icon3" />
-          <img className="contact-icon" style={{ left: '243px' }} src="https://via.placeholder.com/41x41" alt="icon4" />
+          <div className="divider" />
+          <div className="phone-info">
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <img style={{ width: '72px', height: '72px' }} src='/images/phoneLogo.png' alt="Phone" />
+            </a>
+            <div className="phone-number">071 234 5678</div>
+          </div>
         </div>
-        <div className="contact-info phone-info" style={{ left: '0px', top: '83px' }}>
-          <img style={{ width: '72px', height: '72px' }} src="https://via.placeholder.com/72x72" alt="phone" />
-          <div className="phone-number">071 234 5678</div>
-        </div>
-        <div className="contact-info email-info" style={{ left: '162px', top: '83px' }}>
-          <img style={{ width: '71px', height: '70px' }} src="https://via.placeholder.com/71x70" alt="email" />
-          <div className="email-address">example@example.com</div>
-        </div>
-        <div className="divider" style={{ left: '142px', top: '121px' }} />
       </div>
     </div>
   );
