@@ -7,6 +7,16 @@
 .phone {
   position: absolute; 
   top: 15%; 
-  right: 10%; 
+  right: 12%; 
   z-index: 2; 
+}
+.form {
+  position: absolute;
+  top: 118%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

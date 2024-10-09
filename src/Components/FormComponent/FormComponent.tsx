@@ -1,39 +1,92 @@
-import React from 'react';
-import styles from './FormComponent.module.css'; // Create a separate CSS module for styling if needed
+"use client"; 
+
+import React, { useState } from 'react';
+import styles from './FormComponent.module.css'; 
 
 const FormComponent: React.FC = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    description: ''
+  });
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    console.log(formData);
+  };
+
   return (
-    <div className={styles.formContainer}>
+    <form className={styles.formContainer} onSubmit={handleSubmit}>
       <div className={styles.submitTitle}>Submit</div>
 
       <div className={styles.inputContainer}>
         <div className={styles.inputWrapper}>
-          <div className={styles.inputLabel}>Name</div>
+          <input
+            type="text"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            className={styles.inputField}
+            placeholder="Name"
+            required
+          />
         </div>
       </div>
 
       <div className={styles.inputContainer}>
         <div className={styles.inputWrapper}>
-          <div className={styles.inputLabel}>Email</div>
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            className={styles.inputField}
+            placeholder="Email"
+            required
+          />
         </div>
       </div>
 
       <div className={styles.inputContainer}>
         <div className={styles.inputWrapper}>
-          <div className={styles.inputLabel}>Phone Number</div>
+          <input
+            type="tel"
+            name="phone"
+            value={formData.phone}
+            onChange={handleChange}
+            className={styles.inputField}
+            placeholder="Phone Number"
+            required
+          />
         </div>
       </div>
 
       <div className={styles.descriptionContainer}>
         <div className={styles.inputWrapper}>
-          <div className={styles.inputLabel}>Description</div>
+          <textarea
+            name="description"
+            value={formData.description}
+            onChange={handleChange}
+            className={styles.inputField}
+            placeholder="Description"
+            required
+          />
         </div>
       </div>
 
-      <div className={styles.submitButton}>
+      <button type="submit" className={styles.submitButton}>
         <div className={styles.submitButtonText}>Submit</div>
-      </div>
-    </div>
+      </button>
+    </form>
   );
 };
 
