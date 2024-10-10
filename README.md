@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Project
+
+## Description
+
+This is a Next.js project that showcases a responsive web application with a slideshow feature displayed within a phone frame. It uses TypeScript and CSS for styling and functionality. The project is designed to be interactive and visually appealing, making use of the DeviceFrameset library to simulate a phone display.
 
 ## Getting Started
 
-First, run the development server:
+Follow these instructions to run the project locally on your machine.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js (version 14 or higher)
+- npm (Node Package Manager, comes with Node.js)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Cloning the Repository
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Open your terminal (Command Prompt, PowerShell, or terminal in VS Code).
+2. Clone the repository using the following command:
 
-## Learn More
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+3. Navigate to the project directory:
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    cd your-repo-name
+    
+### Installing Dependencies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Before running the project, you need to install the necessary dependencies. Run the following command in the terminal:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    cd your-repo-name
+    
+### Running the Development Server
 
-## Deploy on Vercel
+To start the development server, use the following command:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  npm run dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Now, open your browser and go to http://localhost:3000 to see the application running. The page will automatically update as you edit the files.
