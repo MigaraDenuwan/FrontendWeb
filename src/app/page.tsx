@@ -4,6 +4,8 @@ import Title from "@/Components/Title/Title";
 import styles from '@/app/page.module.css';
 import FormComponent from "@/Components/FormComponent/FormComponent";
 import ContactUs from "@/Components/Contact/ContactUs";
+import Footer from "@/Components/Footer/footerPage";
+import BodyPage from "@/Components/BodyPage/BodyPage";
 
 export default function Home() {
   return (
@@ -21,10 +23,16 @@ export default function Home() {
       <div className={styles.contact}>
         <ContactUs />
       </div>
-      <main>
-        
-      </main>
-      <div style={{ height: '500vh' }}></div>
+      <div className={styles.sub}>
+        <BodyPage />
+      </div>
+      
+      {/* Add Footer component here */}
+      <div className={styles.sub1}>
+      <Footer />
+      </div>
+      <main></main>
+      <div style={{ height: '300vh' }}></div>
     </>
   );
 }

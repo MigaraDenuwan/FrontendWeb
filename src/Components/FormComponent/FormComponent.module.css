@@ -1,3 +1,8 @@
+@font-face {
+  font-style: normal; /* Use the correct style */
+  font-family: 'ABeeZee';
+  src: url('/fonts/ABeeZee-Regular.ttf') format('truetype');
+}
 .formContainer {
   width: 1330px;
   height: 656px;
@@ -17,7 +22,7 @@
   font-size: 24px;
   width: 81px;
   height: 30px;
-  font-family: 'Roobert PRO', sans-serif;
+  font-family: 'ABeeZee', sans-serif;
   font-weight: 700;
   margin-bottom: 4%;
 }
@@ -80,6 +85,6 @@
 .submitButtonText {
   color: white;
   font-size: 16px;
-  font-family: 'Roobert PRO', sans-serif;
+  font-family: 'ABeeZee', sans-serif;
   font-weight: 700;
 }

@@ -30,3 +30,19 @@
   justify-content: center; 
   align-items: center; 
 }
+.sub {
+  position: absolute;
+  top: 300%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub1 {
+  position: absolute; 
+  top: 450%; 
+  z-index: 2; 
+}
