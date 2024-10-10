@@ -35,6 +35,6 @@ Before running the project, you need to install the necessary dependencies. Run 
 
 To start the development server, use the following command:
 
-  npm run dev
+     npm run dev
 
 Now, open your browser and go to http://localhost:3000 to see the application running. The page will automatically update as you edit the files.
