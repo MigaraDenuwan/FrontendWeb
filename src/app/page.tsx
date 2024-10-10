@@ -23,13 +23,11 @@ export default function Home() {
       <div className={styles.contact}>
         <ContactUs />
       </div>
-      <div className={styles.sub}>
+      <div className={styles.subPlans}>
         <BodyPage />
       </div>
-      
-      {/* Add Footer component here */}
-      <div className={styles.sub1}>
-      <Footer />
+      <div className={styles.footer}>
+        <Footer />
       </div>
       <main></main>
       <div style={{ height: '300vh' }}></div>

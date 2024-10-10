@@ -25,12 +25,12 @@
   top: 200%; 
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2;
+  z-index: 3;
   display: flex; 
   justify-content: center; 
   align-items: center; 
 }
-.sub {
+.subPlans {
   position: absolute;
   top: 300%;
   left: 50%;
@@ -41,7 +41,7 @@
   justify-content: center;
   align-items: center;
 }
-.sub1 {
+.footer {
   position: absolute; 
   top: 450%; 
   z-index: 2; 

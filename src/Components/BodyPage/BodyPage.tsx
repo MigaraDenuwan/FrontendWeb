@@ -8,7 +8,6 @@ const BodyPage: React.FC = () => {
     <div>
       <div className={styles.OurPricingPlans}>Our Pricing Plans</div>
       
-      {/* Wrap SubPlan and SubPlansPrimium with a container */}
       <div className={styles.subPlanContainer}>
         <SubPlan />
         <SubPlansPrimium />

@@ -1,10 +1,17 @@
 @font-face {
     font-family: 'Sui Generis';
-    src: url('/fonts/sui generis.ttf') format('truetype'); /* Adjust the path if necessary */
-    font-style: normal; /* Use the correct style */
+    src: url('/fonts/sui-generis.otf') format('opentype');
+    font-style: normal;
+    font-weight: 400; 
+}
+
+@font-face {
     font-family: 'Roobert PRO';
     src: url('/fonts/RoobertPRO-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
 }
+
 .card {
     width: 362px;
     height: 596.5px;
@@ -86,7 +93,7 @@
     left: 50%;
     width: 100%;
     height: 50%;
-    background-color: #b7d8c4;
+    background-color: #ecf8f1;
     clip-path: polygon(50% 12%, 100% 30%, 100% 100%, 0% 100%, 0% 30%);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transform: translateX(-50%);
@@ -102,7 +109,7 @@
 }
 
 .card:hover .header {
-    transform: translateY(-88px) scale(0.6);
+    transform: translateY(-90px) scale(0.6);
 }
 
 .card:hover .priceContainer {
@@ -133,7 +140,7 @@
     font-family: 'Roobert PRO', sans-serif;
     word-wrap: break-word;
     left: 22px;
-    font-size: 14px;
+    font-size: 13px;
     width: 100%;
     color: #500000;
     text-align: left;

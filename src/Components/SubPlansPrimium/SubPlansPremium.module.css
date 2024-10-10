@@ -1,9 +1,15 @@
 @font-face {
     font-family: 'Sui Generis';
-    src: url('/fonts/sui generis.ttf') format('truetype'); /* Adjust the path if necessary */
-    font-style: normal; /* Use the correct style */
+    src: url('/fonts/sui-generis.otf') format('opentype');
+    font-style: normal;
+    font-weight: 400; 
+}
+
+@font-face {
     font-family: 'Roobert PRO';
     src: url('/fonts/RoobertPRO-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
 }
 .card {
     width: 362px;
@@ -101,7 +107,7 @@
 }
 
 .card:hover .header {
-    transform: translateY(-80px) scale(0.6);
+    transform: translateY(-82px) scale(0.6);
 }
 
 .card:hover .priceContainer {

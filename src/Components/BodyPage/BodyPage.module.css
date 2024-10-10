@@ -1,17 +1,17 @@
 @font-face {
-    font-style: normal; /* Use the correct style */
+    font-style: normal; 
     font-family: 'Roobert PRO';
-    src: url('/fonts/RoobertPRO-Regular.ttf') format('truetype'); /* Adjust the path if necessary */
+    src: url('/fonts/RoobertPRO-Regular.ttf') format('truetype');
     font-family: 'ABeeZee';
     src: url('/fonts/ABeeZee-Regular.ttf') format('truetype');
 }
 .Rectangle12 {
-    width: 100vW; /* Set to 100% for responsive design */
+    width: 100vW; 
     height: 271px;
     background: rgba(152, 0, 0, 0.05);
     display: flex;
-    flex-direction: column; /* Arrange inner elements vertically */
-    align-items: center; /* Center content horizontally */
+    flex-direction: column; 
+    align-items: center; 
   }
   
   .OurPricingPlans {
@@ -19,7 +19,7 @@
     font-size: 50px;
     height: 35px;
     width: 100%;
-    font-family: 'ABeeZee', sans-serif; /* Add fallback font */
+    font-family: 'ABeeZee', sans-serif; 
     font-weight: 700;
     word-wrap: break-word;
     text-align: center;
@@ -29,7 +29,7 @@
   .TrustedBy750Restaurants {
     color: #500000;
     font-size: 38px;
-    font-family: 'ABeeZee', sans-serif; /* Add fallback font */
+    font-family: 'ABeeZee', sans-serif;
     font-weight: 700;
     margin-top: 8%;
     text-align: center;
@@ -37,14 +37,14 @@
   }
   
   .LoremIpsum {
-    width: 850px; /* Maintain your width */
-    height: 174px; /* Maintain your height */
+    width: 850px; 
+    height: 174px;
     text-align: center;
     color: black;
     font-size: 20px;
-    font-family: 'Roobert PRO', sans-serif; /* Add fallback font */
+    font-family: 'Roobert PRO', sans-serif;
     font-weight: 400;
-    margin: 4% auto; /* Center horizontally with auto margin */
+    margin: 4% auto;
     word-wrap: break-word;
   }
   
@@ -52,9 +52,9 @@
  .RestaurantMenuForUltimateDiningExperience {
     color: #500000;
     font-size: 38px;
-    font-family: 'ABeeZee', sans-serif; /* Add fallback font */
+    font-family: 'ABeeZee', sans-serif; 
     font-weight: 700;
-    margin-top: 4%; /* Change this value to adjust how far down you want it */
+    margin-top: 4%; 
     text-align: center;
     word-wrap: break-word;
 }
@@ -67,15 +67,15 @@
     color: black;
     margin-top: 2%;
     font-size: 20px;
-    font-family: 'Roobert PRO', sans-serif; /* Add fallback font */
+    font-family: 'Roobert PRO', sans-serif;
     font-weight: 400;
     word-wrap: break-word;
 }
 
   .subPlanContainer {
     display: flex;
-    flex-direction: row; /* Stack the components vertically */
+    flex-direction: row; 
     margin-top: 5%;
     justify-content: center;
-    gap: 10%; /* Adjust this value for the desired gap */
+    gap: 10%; 
   }
